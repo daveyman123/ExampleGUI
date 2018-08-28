@@ -47,10 +47,10 @@ public class ExampleGUI {
         panel2.setBorder(new TitledBorder("Panel 2 Border"));
         panel2.setLayout(new GridLayout(2,2));
         
+        panel2.add(button3);
         
-        
-        myFrame.add(okButton);
-        myFrame.add(button2);
+        myFrame.add(panel1);
+        myFrame.add(panel2);
         
         myFrame.setSize(600, 400);
         myFrame.setLocationRelativeTo(null);
