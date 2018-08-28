@@ -39,6 +39,15 @@ public class ExampleGUI {
         panel1.add(button2);
         panel1.setSize(100,50);
         
+        JButton button3 = new JButton("Button 3");
+        button3.setToolTipText("This is Button 3");
+        button3.setForeground(Color.red);
+        
+        JPanel panel2 = new JPanel();
+        panel2.setBorder(new TitledBorder("Panel 2 Border"));
+        panel2.setLayout(new GridLayout(2,2));
+        
+        
         
         myFrame.add(okButton);
         myFrame.add(button2);
